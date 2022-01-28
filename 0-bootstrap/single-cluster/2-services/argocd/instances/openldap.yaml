@@ -48,6 +48,14 @@ spec:
               userlist: "user1,user2,user3,user4"
               initialPassword: "redhat"
 
+            Domain: "ibm.com"
+            AdminPassword: "admin"
+            Https: "false"
+            SeedUsers:
+              usergroup: "apps"
+              userlist: "app,springapp,quarkusapp,mqapp"
+              initialPassword: "app"
+
           PhpLdapAdmin:
             Image: "docker.io/osixia/phpldapadmin"
             ImageTag: "0.7.0"
